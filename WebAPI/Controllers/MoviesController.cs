@@ -88,14 +88,16 @@ namespace WebAPI.Controllers
         //// POST: api/Movies
         //// To protect from overposting attacks, enable the specific properties you want to bind to, for
         //// more details, see https://go.microsoft.com/fwlink/?linkid=2123754.
-        //[HttpPost]
-        //public async Task<ActionResult<Movie>> PostMovie(Movie movie)
-        //{
-        //    _context.Movie.Add(movie);
-        //    await _context.SaveChangesAsync();
+        [HttpPost]
+        public async Task<ActionResult<Movie>> PostMovie(HadithVM hadith)
+        {
 
-        //    return CreatedAtAction("GetMovie", new { id = movie.Id }, movie);
-        //}
+            _hadith.Add(_mapper.Map<HadithVM,Hadith>(hadith));
+
+            await _unit.complateSaveAsync();
+
+            return CreatedAtAction("GetMovie", new { id = hadith.Id }, hadith);
+        }
 
         //// DELETE: api/Movies/5
         //[HttpDelete("{id}")]
