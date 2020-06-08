@@ -11,3 +11,16 @@ C:\Users\Yasemin\source\repos\Infrastructer.NetCore\Core\Domain.VmModel\bin\Debu
 C:\Users\Yasemin\source\repos\Infrastructer.NetCore\Core\Domain.VmModel\obj\Debug\netcoreapp3.1\Domain.VmModel.csproj.CopyComplete
 C:\Users\Yasemin\source\repos\Infrastructer.NetCore\Core\Domain.VmModel\obj\Debug\netcoreapp3.1\Domain.VmModel.dll
 C:\Users\Yasemin\source\repos\Infrastructer.NetCore\Core\Domain.VmModel\obj\Debug\netcoreapp3.1\Domain.VmModel.pdb
+C:\Users\Yasemin\source\repos\Infrastructer.NetCore\Core\Infrastructer\Domain.VmModel\bin\Debug\netcoreapp3.1\Domain.VmModel.deps.json
+C:\Users\Yasemin\source\repos\Infrastructer.NetCore\Core\Infrastructer\Domain.VmModel\bin\Debug\netcoreapp3.1\Domain.VmModel.dll
+C:\Users\Yasemin\source\repos\Infrastructer.NetCore\Core\Infrastructer\Domain.VmModel\bin\Debug\netcoreapp3.1\Domain.VmModel.pdb
+C:\Users\Yasemin\source\repos\Infrastructer.NetCore\Core\Infrastructer\Domain.VmModel\bin\Debug\netcoreapp3.1\Core.dll
+C:\Users\Yasemin\source\repos\Infrastructer.NetCore\Core\Infrastructer\Domain.VmModel\bin\Debug\netcoreapp3.1\Domain.dll
+C:\Users\Yasemin\source\repos\Infrastructer.NetCore\Core\Infrastructer\Domain.VmModel\bin\Debug\netcoreapp3.1\Core.pdb
+C:\Users\Yasemin\source\repos\Infrastructer.NetCore\Core\Infrastructer\Domain.VmModel\bin\Debug\netcoreapp3.1\Domain.pdb
+C:\Users\Yasemin\source\repos\Infrastructer.NetCore\Core\Infrastructer\Domain.VmModel\obj\Debug\netcoreapp3.1\Domain.VmModel.csprojAssemblyReference.cache
+C:\Users\Yasemin\source\repos\Infrastructer.NetCore\Core\Infrastructer\Domain.VmModel\obj\Debug\netcoreapp3.1\Domain.VmModel.AssemblyInfoInputs.cache
+C:\Users\Yasemin\source\repos\Infrastructer.NetCore\Core\Infrastructer\Domain.VmModel\obj\Debug\netcoreapp3.1\Domain.VmModel.AssemblyInfo.cs
+C:\Users\Yasemin\source\repos\Infrastructer.NetCore\Core\Infrastructer\Domain.VmModel\obj\Debug\netcoreapp3.1\Domain.VmModel.csproj.CopyComplete
+C:\Users\Yasemin\source\repos\Infrastructer.NetCore\Core\Infrastructer\Domain.VmModel\obj\Debug\netcoreapp3.1\Domain.VmModel.dll
+C:\Users\Yasemin\source\repos\Infrastructer.NetCore\Core\Infrastructer\Domain.VmModel\obj\Debug\netcoreapp3.1\Domain.VmModel.pdb

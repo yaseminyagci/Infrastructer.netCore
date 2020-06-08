@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Yasemin\\source\\repos\\Infrastructer.NetCore\\Core\\Data\\Data.csproj": {}
+    "C:\\Users\\Yasemin\\source\\repos\\Infrastructer.NetCore\\Core\\Infrastructer\\Data\\Data.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Yasemin\\source\\repos\\Infrastructer.NetCore\\Core\\Core\\Core.csproj": {
+    "C:\\Users\\Yasemin\\source\\repos\\Infrastructer.NetCore\\Core\\Infrastructer\\Core\\Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Yasemin\\source\\repos\\Infrastructer.NetCore\\Core\\Core\\Core.csproj",
+        "projectUniqueName": "C:\\Users\\Yasemin\\source\\repos\\Infrastructer.NetCore\\Core\\Infrastructer\\Core\\Core.csproj",
         "projectName": "Core",
-        "projectPath": "C:\\Users\\Yasemin\\source\\repos\\Infrastructer.NetCore\\Core\\Core\\Core.csproj",
+        "projectPath": "C:\\Users\\Yasemin\\source\\repos\\Infrastructer.NetCore\\Core\\Infrastructer\\Core\\Core.csproj",
         "packagesPath": "C:\\Users\\Yasemin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Yasemin\\source\\repos\\Infrastructer.NetCore\\Core\\Core\\obj\\",
+        "outputPath": "C:\\Users\\Yasemin\\source\\repos\\Infrastructer.NetCore\\Core\\Infrastructer\\Core\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Yasemin\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -62,14 +62,14 @@
         }
       }
     },
-    "C:\\Users\\Yasemin\\source\\repos\\Infrastructer.NetCore\\Core\\Data\\Data.csproj": {
+    "C:\\Users\\Yasemin\\source\\repos\\Infrastructer.NetCore\\Core\\Infrastructer\\Data\\Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Yasemin\\source\\repos\\Infrastructer.NetCore\\Core\\Data\\Data.csproj",
+        "projectUniqueName": "C:\\Users\\Yasemin\\source\\repos\\Infrastructer.NetCore\\Core\\Infrastructer\\Data\\Data.csproj",
         "projectName": "Data",
-        "projectPath": "C:\\Users\\Yasemin\\source\\repos\\Infrastructer.NetCore\\Core\\Data\\Data.csproj",
+        "projectPath": "C:\\Users\\Yasemin\\source\\repos\\Infrastructer.NetCore\\Core\\Infrastructer\\Data\\Data.csproj",
         "packagesPath": "C:\\Users\\Yasemin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Yasemin\\source\\repos\\Infrastructer.NetCore\\Core\\Data\\obj\\",
+        "outputPath": "C:\\Users\\Yasemin\\source\\repos\\Infrastructer.NetCore\\Core\\Infrastructer\\Data\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Yasemin\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -85,14 +85,14 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\Users\\Yasemin\\source\\repos\\Infrastructer.NetCore\\Core\\Core\\Core.csproj": {
-                "projectPath": "C:\\Users\\Yasemin\\source\\repos\\Infrastructer.NetCore\\Core\\Core\\Core.csproj"
+              "C:\\Users\\Yasemin\\source\\repos\\Infrastructer.NetCore\\Core\\Infrastructer\\Core\\Core.csproj": {
+                "projectPath": "C:\\Users\\Yasemin\\source\\repos\\Infrastructer.NetCore\\Core\\Infrastructer\\Core\\Core.csproj"
               },
-              "C:\\Users\\Yasemin\\source\\repos\\Infrastructer.NetCore\\Core\\Domain.Entity\\Domain.Entity.csproj": {
-                "projectPath": "C:\\Users\\Yasemin\\source\\repos\\Infrastructer.NetCore\\Core\\Domain.Entity\\Domain.Entity.csproj"
+              "C:\\Users\\Yasemin\\source\\repos\\Infrastructer.NetCore\\Core\\Infrastructer\\Domain.Entity\\Domain.Entity.csproj": {
+                "projectPath": "C:\\Users\\Yasemin\\source\\repos\\Infrastructer.NetCore\\Core\\Infrastructer\\Domain.Entity\\Domain.Entity.csproj"
               },
-              "C:\\Users\\Yasemin\\source\\repos\\Infrastructer.NetCore\\Core\\Domain\\Domain.csproj": {
-                "projectPath": "C:\\Users\\Yasemin\\source\\repos\\Infrastructer.NetCore\\Core\\Domain\\Domain.csproj"
+              "C:\\Users\\Yasemin\\source\\repos\\Infrastructer.NetCore\\Core\\Infrastructer\\Domain\\Domain.csproj": {
+                "projectPath": "C:\\Users\\Yasemin\\source\\repos\\Infrastructer.NetCore\\Core\\Infrastructer\\Domain\\Domain.csproj"
               }
             }
           }
@@ -133,6 +133,14 @@
               "suppressParent": "All",
               "target": "Package",
               "version": "[3.1.4, )"
+            },
+            "Microsoft.Extensions.Configuration.FileExtensions": {
+              "target": "Package",
+              "version": "[3.1.4, )"
+            },
+            "Microsoft.Extensions.Configuration.Json": {
+              "target": "Package",
+              "version": "[3.1.4, )"
             }
           },
           "imports": [
@@ -154,14 +162,14 @@
         }
       }
     },
-    "C:\\Users\\Yasemin\\source\\repos\\Infrastructer.NetCore\\Core\\Domain.Entity\\Domain.Entity.csproj": {
+    "C:\\Users\\Yasemin\\source\\repos\\Infrastructer.NetCore\\Core\\Infrastructer\\Domain.Entity\\Domain.Entity.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Yasemin\\source\\repos\\Infrastructer.NetCore\\Core\\Domain.Entity\\Domain.Entity.csproj",
+        "projectUniqueName": "C:\\Users\\Yasemin\\source\\repos\\Infrastructer.NetCore\\Core\\Infrastructer\\Domain.Entity\\Domain.Entity.csproj",
         "projectName": "Domain.Entity",
-        "projectPath": "C:\\Users\\Yasemin\\source\\repos\\Infrastructer.NetCore\\Core\\Domain.Entity\\Domain.Entity.csproj",
+        "projectPath": "C:\\Users\\Yasemin\\source\\repos\\Infrastructer.NetCore\\Core\\Infrastructer\\Domain.Entity\\Domain.Entity.csproj",
         "packagesPath": "C:\\Users\\Yasemin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Yasemin\\source\\repos\\Infrastructer.NetCore\\Core\\Domain.Entity\\obj\\",
+        "outputPath": "C:\\Users\\Yasemin\\source\\repos\\Infrastructer.NetCore\\Core\\Infrastructer\\Domain.Entity\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Yasemin\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -177,8 +185,8 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\Users\\Yasemin\\source\\repos\\Infrastructer.NetCore\\Core\\Domain\\Domain.csproj": {
-                "projectPath": "C:\\Users\\Yasemin\\source\\repos\\Infrastructer.NetCore\\Core\\Domain\\Domain.csproj"
+              "C:\\Users\\Yasemin\\source\\repos\\Infrastructer.NetCore\\Core\\Infrastructer\\Domain\\Domain.csproj": {
+                "projectPath": "C:\\Users\\Yasemin\\source\\repos\\Infrastructer.NetCore\\Core\\Infrastructer\\Domain\\Domain.csproj"
               }
             }
           }
@@ -210,14 +218,14 @@
         }
       }
     },
-    "C:\\Users\\Yasemin\\source\\repos\\Infrastructer.NetCore\\Core\\Domain\\Domain.csproj": {
+    "C:\\Users\\Yasemin\\source\\repos\\Infrastructer.NetCore\\Core\\Infrastructer\\Domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Yasemin\\source\\repos\\Infrastructer.NetCore\\Core\\Domain\\Domain.csproj",
+        "projectUniqueName": "C:\\Users\\Yasemin\\source\\repos\\Infrastructer.NetCore\\Core\\Infrastructer\\Domain\\Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "C:\\Users\\Yasemin\\source\\repos\\Infrastructer.NetCore\\Core\\Domain\\Domain.csproj",
+        "projectPath": "C:\\Users\\Yasemin\\source\\repos\\Infrastructer.NetCore\\Core\\Infrastructer\\Domain\\Domain.csproj",
         "packagesPath": "C:\\Users\\Yasemin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Yasemin\\source\\repos\\Infrastructer.NetCore\\Core\\Domain\\obj\\",
+        "outputPath": "C:\\Users\\Yasemin\\source\\repos\\Infrastructer.NetCore\\Core\\Infrastructer\\Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Yasemin\\AppData\\Roaming\\NuGet\\NuGet.Config",

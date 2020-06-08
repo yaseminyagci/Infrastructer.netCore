@@ -11,9 +11,11 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 using Microsoft.EntityFrameworkCore;
-using WebAPI.Data;
-using Data.Context;
 using System.Data.Common;
+using Application.ServiceExtensions;
+using AutoMapper;
+using Application;
+using Application.Repository;
 
 namespace WebAPI
 {
@@ -29,10 +31,12 @@ namespace WebAPI
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            services.AddAutoMapper(typeof(Mapping));
+            services.AddDbContextService()
+                    .AddRepositoryService();
+            //services.AddRepositoryService();
+            //services.AddScoped<IUnitOfWork, UnitOfWork>();
             services.AddControllers();
-
-           
-            services.AddTransient<DbConnection>(serviceProvider => new DbConnection());
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

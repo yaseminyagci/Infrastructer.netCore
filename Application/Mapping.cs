@@ -1,4 +1,6 @@
 ﻿using AutoMapper;
+using Domain.Entity;
+using Domain.VmModel;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -11,7 +13,8 @@ namespace Application
     {
         public Mapping()
         {
-            //CreateMap<User, UserDTO>();
+            CreateMap<Hadith, HadithVM>();
+            CreateMap<HadithVM, Hadith>();
         }
     }
 }

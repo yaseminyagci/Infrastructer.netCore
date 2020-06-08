@@ -6,3 +6,11 @@ C:\Users\Yasemin\source\repos\Infrastructer.NetCore\Core\Interface\obj\Debug\net
 C:\Users\Yasemin\source\repos\Infrastructer.NetCore\Core\Interface\obj\Debug\netcoreapp3.1\Interface.AssemblyInfo.cs
 C:\Users\Yasemin\source\repos\Infrastructer.NetCore\Core\Interface\obj\Debug\netcoreapp3.1\Interface.dll
 C:\Users\Yasemin\source\repos\Infrastructer.NetCore\Core\Interface\obj\Debug\netcoreapp3.1\Interface.pdb
+C:\Users\Yasemin\source\repos\Infrastructer.NetCore\Core\Infrastructer\Interface\bin\Debug\netcoreapp3.1\Interface.deps.json
+C:\Users\Yasemin\source\repos\Infrastructer.NetCore\Core\Infrastructer\Interface\bin\Debug\netcoreapp3.1\Interface.dll
+C:\Users\Yasemin\source\repos\Infrastructer.NetCore\Core\Infrastructer\Interface\bin\Debug\netcoreapp3.1\Interface.pdb
+C:\Users\Yasemin\source\repos\Infrastructer.NetCore\Core\Infrastructer\Interface\obj\Debug\netcoreapp3.1\Interface.csprojAssemblyReference.cache
+C:\Users\Yasemin\source\repos\Infrastructer.NetCore\Core\Infrastructer\Interface\obj\Debug\netcoreapp3.1\Interface.AssemblyInfoInputs.cache
+C:\Users\Yasemin\source\repos\Infrastructer.NetCore\Core\Infrastructer\Interface\obj\Debug\netcoreapp3.1\Interface.AssemblyInfo.cs
+C:\Users\Yasemin\source\repos\Infrastructer.NetCore\Core\Infrastructer\Interface\obj\Debug\netcoreapp3.1\Interface.dll
+C:\Users\Yasemin\source\repos\Infrastructer.NetCore\Core\Infrastructer\Interface\obj\Debug\netcoreapp3.1\Interface.pdb

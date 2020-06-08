@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Yasemin\\source\\repos\\Infrastructer.NetCore\\Core\\Interface\\Interface.csproj",
+      "projectUniqueName": "C:\\Users\\Yasemin\\source\\repos\\Infrastructer.NetCore\\Core\\Infrastructer\\Interface\\Interface.csproj",
       "projectName": "Interface",
-      "projectPath": "C:\\Users\\Yasemin\\source\\repos\\Infrastructer.NetCore\\Core\\Interface\\Interface.csproj",
+      "projectPath": "C:\\Users\\Yasemin\\source\\repos\\Infrastructer.NetCore\\Core\\Infrastructer\\Interface\\Interface.csproj",
       "packagesPath": "C:\\Users\\Yasemin\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Yasemin\\source\\repos\\Infrastructer.NetCore\\Core\\Interface\\obj\\",
+      "outputPath": "C:\\Users\\Yasemin\\source\\repos\\Infrastructer.NetCore\\Core\\Infrastructer\\Interface\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Yasemin\\AppData\\Roaming\\NuGet\\NuGet.Config",
