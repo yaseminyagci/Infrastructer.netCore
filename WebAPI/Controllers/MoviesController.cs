@@ -92,11 +92,11 @@ namespace WebAPI.Controllers
         public async Task<ActionResult<Movie>> PostMovie(HadithVM hadith)
         {
 
-            _hadith.Add(_mapper.Map<HadithVM,Hadith>(hadith));
+            HadithVM result=_mapper.Map<Hadith,HadithVM>( _hadith.Add(_mapper.Map<HadithVM,Hadith>(hadith)));
 
             await _unit.complateSaveAsync();
 
-            return CreatedAtAction("GetMovie", new { id = hadith.Id }, hadith);
+            return CreatedAtAction("GetMovie", result);
         }
 
         //// DELETE: api/Movies/5

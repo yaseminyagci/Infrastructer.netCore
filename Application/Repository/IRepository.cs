@@ -16,7 +16,7 @@ namespace Application.Repository
         A GetSingle<A>(Func<A, bool> metot) where A : class;
         T GetById(int id);
         A GetById<A>(int id) where A : class;
-        bool Add(T model);
+        T Add(T model);
         bool Add<A>(A model) where A : class;
         bool Remove(T model);
         bool Remove<A>(A model) where A : class;

@@ -36,9 +36,10 @@ namespace Application.Repository
             return _context.Set<A>();
         }
         [NonAction]
-        public bool Add(Type model)
+        public Type Add(Type model)
         {
-            return Add<Type>(model);
+            Add<Type>(model);
+            return model;
         }
         [NonAction]
         public bool Add<A>(A model) where A : class
