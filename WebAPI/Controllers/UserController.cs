@@ -146,7 +146,7 @@ namespace WebAPI.Controllers
             TempData["returnUrl"] = ReturnUrl;
             return View();
         }
-        [HttpPost]
+        [HttpPost("[action]")]
         public async Task<IActionResult> Login(LoginViewModel model)
         {
             if (ModelState.IsValid)
