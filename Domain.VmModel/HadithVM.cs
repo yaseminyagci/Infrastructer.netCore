@@ -6,7 +6,6 @@ namespace Domain.VmModel
     {
         public int Id { get; set; }
         public string Turkish { get; set; }
-
         public string Arabic { get; set; }
     }
 }

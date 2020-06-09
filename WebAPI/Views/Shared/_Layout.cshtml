@@ -1,0 +1,39 @@
+﻿@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <script src="~/jquery/jquery.js"></script>
+    <script src="~/lib/jquery-validate/jquery.validate.js"></script>
+    <script src="~/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js"></script>
+</head>
+<body>
+    <div>
+
+        <a asp-action="Page1" asp-controller="Pages">Page 1</a> |
+        <a asp-action="Page2" asp-controller="Pages">Page 2</a> |
+        <a asp-action="Page3" asp-controller="Pages">Page 3</a> |
+        <a asp-action="Page4" asp-controller="Pages">Page 4</a> 
+        <br />
+
+        <a asp-action="Index" asp-controller="User">Index</a> |
+        <a asp-action="Signin" asp-controller="User">Signin</a> |
+        @if (User.Identity.IsAuthenticated)
+        {
+            <a asp-action="Index" asp-controller="Role">Roles</a> @: |
+
+            <a asp-action="Profile" asp-controller="User">Profile</a> @: |
+
+            <a asp-action="Logout" asp-controller="User" asp-route-returnUrl="/User/Signin">Logout</a>
+        }
+        else
+        {
+            <a asp-action="Login" asp-controller="User">Login</a> @: |
+        }
+
+        <br />
+        @RenderBody()
+    </div>
+</body>
+</html>

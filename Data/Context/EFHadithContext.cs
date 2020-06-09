@@ -1,5 +1,7 @@
 ﻿using Core.CustomException;
+using Data.Authentication;
 using Domain.Entity;
+using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 //using Microsoft.EntityFrameworkCore;
 using System;
@@ -7,7 +9,7 @@ using System;
 
 namespace Data.Context
 {
-    public class EFHadithContext : DbContext
+    public class EFHadithContext : IdentityDbContext<AppUser, AppRole, int>
     {
         public EFHadithContext(DbContextOptions<EFHadithContext> options)
           : base(options)

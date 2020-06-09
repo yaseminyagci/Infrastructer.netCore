@@ -1,6 +1,8 @@
 ﻿using AutoMapper;
+using Data.Authentication;
 using Domain.Entity;
 using Domain.VmModel;
+using Domain.VmModel.Identity;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -15,6 +17,8 @@ namespace Application
         {
             CreateMap<Hadith, HadithVM>();
             CreateMap<HadithVM, Hadith>();
+            CreateMap<AppUser, UserDetailViewModel>();
+            CreateMap<UserDetailViewModel,AppUser>();
         }
     }
 }

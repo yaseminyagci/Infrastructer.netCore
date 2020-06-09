@@ -16,6 +16,7 @@ using Application.ServiceExtensions;
 using AutoMapper;
 using Application;
 using Application.Repository;
+using Newtonsoft.Json;
 
 namespace WebAPI
 {
@@ -33,10 +34,21 @@ namespace WebAPI
         {
             services.AddAutoMapper(typeof(Mapping));
             services.AddDbContextService()
-                    .AddRepositoryService();
+                    .AddRepositoryService()
+                    .AddIdentityService()
+                    .AddCookieService();
             //services.AddRepositoryService();
             //services.AddScoped<IUnitOfWork, UnitOfWork>();
             services.AddControllers();
+            services.AddControllersWithViews()
+              .AddRazorRuntimeCompilation()
+              .AddNewtonsoftJson(options =>
+              {
+                  options.SerializerSettings.ReferenceLoopHandling = ReferenceLoopHandling.Ignore;
+              });
+
+            services.AddMvcCore()
+                    .AddApiExplorer();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -52,10 +64,18 @@ namespace WebAPI
             app.UseRouting();
 
             app.UseAuthorization();
-
+            app.UseStatusCodePages();
+            app.UseStaticFiles();
+            app.UseAuthentication();
+           // app.UseMvc(_ => _.MapRoute("Default", "{controller=Home}/{action=Index}/{id?}"));
+            //app.UseMvcWithDefaultRoute();
+            
             app.UseEndpoints(endpoints =>
             {
                 endpoints.MapControllers();
+                endpoints.MapControllerRoute(
+                   name: "default",
+                   pattern: "{controller=Home}/{action=Login}/{id?}");
             });
         }
     }
