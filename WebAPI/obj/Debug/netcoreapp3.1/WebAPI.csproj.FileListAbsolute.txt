@@ -611,3 +611,4 @@ C:\Users\Yasemin\source\repos\Infrastructer.NetCore\Core\Infrastructer\WebAPI\bi
 C:\Users\Yasemin\source\repos\Infrastructer.NetCore\Core\Infrastructer\WebAPI\bin\Debug\netcoreapp3.1\Newtonsoft.Json.Bson.dll
 C:\Users\Yasemin\source\repos\Infrastructer.NetCore\Core\Infrastructer\WebAPI\obj\Debug\netcoreapp3.1\WebAPI.MvcApplicationPartsAssemblyInfo.cs
 C:\Users\Yasemin\source\repos\Infrastructer.NetCore\Core\Infrastructer\WebAPI\obj\Debug\netcoreapp3.1\WebAPI.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Yasemin\source\repos\Infrastructer.NetCore\Core\Infrastructer\WebAPI\bin\Debug\netcoreapp3.1\libman.json
