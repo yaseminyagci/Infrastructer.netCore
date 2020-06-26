@@ -1,0 +1,39 @@
+﻿
+@{
+    ViewData["Title"] = "GetMovie";
+}
+
+<h1>GetMovie</h1>
+
+@model Domain.VmModel.Identity.AppUserViewModel
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+
+
+<hr />
+<div id="app">
+    <div class="columns">
+        <div class="column is-3">
+            <h2 class="title">New User</h2>
+            <div class="field">
+                <div class="control">
+                    <input class="input" v-model="newUser.UserName" />
+                </div>
+            </div>
+            <div class="field">
+                <div class="control">
+                    <input class="input" v-model="newUser.Email" />
+                </div>
+            </div>
+            <div class="field">
+                <div class="control">
+                    <input class="input" v-model="newUser.Sifre" />
+                </div>
+            </div>
+            <input type="submit" @@click="addUser" value="Add" />
+        </div>
+    </div>
+</div>
+
+@section scripts {
+    <script src="~/views/scripts/singIn.js"></script>
+}
